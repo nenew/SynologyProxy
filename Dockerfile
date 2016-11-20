@@ -11,4 +11,4 @@ ADD /run.sh /
 RUN chmod +x /kcptunclient
 RUN chmod +x /run.sh
 EXPOSE 6606
-CMD run.sh
+CMD ["./run.sh"]
